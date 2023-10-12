@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(229, 242, 242);
+}
+
+
+/* For top black banner fixed */
+#navbar{
+    position: fixed;
+    top=0; 
+    width: 100vw;
+    height: 60px;
+    background-color: #0f1111;
+    z-index: 5;
+}
+/* For texts on top black banner like account , my cart etc. */
+a{
+    color: aliceblue;
+    margin-right: 50px;
+     text-decoration: none;  
+}
+/* search bar  */
+input{
+    width: 700px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: 4px solid white;
+}
+.all{
+    height: 32px;
+    width: 50px;
+}
+/* search button */
+button{
+    background-color: orange;
+    width: 69px;
+    height: 20px;
+}
+/* For second top banner in blue not fixed ! */
+#navbar2{
+     height: 35px;
+     position: absolute;
+     top: 60px;
+     width: 100vw;
+    background-color:#222f3d;
+    padding: 2px;
+}
+/* For select prime and language  */
+select{
+    color:rgb(35, 32, 32);
+    margin-left: 20px;
+    background-color: white;
+}
+    /* For texts in blue banner like todays deal ,best sellers etc.  */
+.itmes{
+    margin-right: 25px;
+}
+/* For the big image(great indian festival)  */
+#content{
+    height: 25rem;
+    background-color: rgb(99, 200, 166);
+    background-image: url("pic2.webp");
+    background-size: cover;
+    z-index: 0;
+}
+ /* For containing 1st row of boxes */
+#container{
+    height: 50vh;
+    width:100vw;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(229, 242, 242);
+   z-index: 1; 
+}
+/* For boxes in 1st row */
+.row1{
+    background-color: rgb(255, 255, 255);
+    border: 2px transparent rgb(188, 184, 184);
+    border-radius: 0px; 
+    height: 360px;
+    width: 295px;  
+}
+.productpic{
+    margin-top: 20px;
+}
+/* For headings of 1st row boxes */
+h3{
+    color: black;
+    position: absolute;
+    top: 25rem;
+    background-color: aliceblue;
+}
+/* for mention see all offer as link */
+.offer{
+    color: rgb(79, 157, 217);
+    position: relative;
+    bottom: 29px; 
+}
+#container2 {
+    height: 50vh;
+    width:100vw;
+    background-color: rgb(255, 255, 255);
+    /* display: flex; 
+    justify-content: space-between; */
+    position: relative;
+    top: 20px;
+    
+}
+/* For 2nd row boxes */
+.row2 {
+    background-color: rgb(219, 208, 208);
+    border: 2px transparent rgb(188, 184, 184);
+    border-radius: 0px;
+    height: 259px;
+    width: 250px;  
+    margin-top: 23px;
+    display: inline-block;
+    margin-right: 50px; 
+    ;
+}
+#container3{
+    height: 55vh;
+    width:50vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 3rem;
+    left: 350px;
+    background-image: url("pic2.0.jpg");
+    background-size: cover;
+
+
+}
+#off{
+    color: white;
+    background-color: rgb(181, 2, 2);
+    margin-right: 150px;
+    border: 2px solid  rgb(181, 2, 2);
+}
+p{
+    margin-right: 90px;
+}
+#container4{
+    height: 50vh;
+    width:65vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 5rem;
+    left: 250px;
+    background-image: url("pic3.avif");
+    background-size: cover;
+}
+#footer{
+    height: 70vh;
+    width:100vw;
+    background-color:#222f3d;
+    position: absolute;
+    top: 124rem;
+    display: flex;
+    justify-content: space-around;
+}
+#footcontent{
+    color: rgb(233, 236, 242);
+    /* display: inline-block;
+    margin-right: 200px; */
+    margin-top: 20px;
+    font-size: 15px;
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ /* #bottom{ 
+    height: 20rem;
+    background-color: rgb(9, 10, 38);
+    position: relative
+    top: 2rem;
+}*/
+hr{
+    width: 40rem;
+}
+a:hover {
+    border: 2px solid white;
+
+}
+select:hover{
+    border: 2px solid rgb(235, 160, 110);
+
+}
+input:hover{
+    border: 2px solid rgb(235, 160, 110);
+}
+
+
+
+
+
